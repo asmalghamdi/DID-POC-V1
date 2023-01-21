@@ -25,7 +25,7 @@ export class Block {
     }
 }
 
-export default function createGenesisBlock() {
+export function createGenesisBlock() {
     return new Block("Genesis Block", "0", 0, 0)
 }
 
