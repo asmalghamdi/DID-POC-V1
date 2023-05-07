@@ -1,5 +1,4 @@
-// const sha256 = require('crypto-js/sha256');
-import sha256 from "crypto-js/sha256.js"
+ import sha256 from "crypto-js/sha256.js"
 export class Block {
     hash
     data
